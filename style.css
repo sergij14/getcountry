@@ -194,6 +194,6 @@ header .brand:hover {
 footer {
   background: #eeeeee;
   padding: 2em;
-  margin-top: 2em;
+  margin: 2em 0;
   text-align: center;
 }
