@@ -101,7 +101,7 @@ header .brand:hover {
   padding: 1rem 1.5rem;
   border: 1px solid #ddd;
   cursor: pointer;
-  margin: 1.5em 0;
+  margin-bottom: 1.5em;
 }
 
 .form button {
