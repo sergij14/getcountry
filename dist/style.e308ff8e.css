@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Verdana, Tahoma, sans-serif;
+  font-size: 1.4rem;
+  color: #555;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:active,
+a:visited,
+a:focus,
+a:hover {
+  color: inherit;
+}
+
+a:active,
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+header {
+  background: #eeeeee;
+  padding: 2em 0;
+  margin-bottom: 4em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .brand {
+  font-size: 2.5rem;
+}
+
+header .brand img {
+  width: 5rem;
+  display: flex;
+  margin: 0.2em auto;
+}
+
+header .brand a:hover {
+  text-decoration: none;
+}
+
+header .brand:hover {
+  opacity: 0.7;
+}
+
+.container {
+  padding: 0 2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  padding: 0;
+}
+
+.neighs {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.error {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.rel {
+  text-align: center;
+}
+.rel__btn {
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+}
+
+.form button {
+  cursor: pointer;
+}
+
+.form input,
+.form button {
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.form button {
+  margin-bottom: 2em;
+}
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  opacity: 0;
+  transition: all 650ms;
+}
+
+.country {
+  background-color: #fff;
+  font-size: 1.8rem;
+  width: 100%;
+  border-radius: 0.7rem;
+  border: 1px solid #ddd;
+}
+
+.neighbour::before {
+  content: "Neighbour country";
+  width: 100%;
+  position: absolute;
+  top: -4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.neighbour {
+  transform: scale(0.9) translateY(1rem);
+  margin-top: 2.5em;
+}
+
+.country__img {
+  width: 100%;
+  background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.country__data {
+  padding: 2.5rem 3.75rem 3rem 3.75rem;
+}
+
+.country__name {
+  font-size: 2.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.country__region {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.country__row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.country__row span {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 2.4rem;
+}
+
+footer {
+  background: #eeeeee;
+  padding: 2em;
+  margin: 2em 0;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

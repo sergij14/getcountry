@@ -1,4 +1,7 @@
-"use strict";
+import "regenerator-runtime/runtime";
+import "core-js/stable";
+
+("use strict");
 
 const countriesContainer = document.querySelector(".countries");
 
